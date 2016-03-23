@@ -41,9 +41,9 @@ public class MainActivity extends AppCompatActivity {
                     current = 0;
                 }
                 numberProgress.setCurrentProgress(current);
-                handler.postDelayed(this,80);
+                handler.postDelayed(this,100);
             }
-        },80);
+        },100);
 
     }
 

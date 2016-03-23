@@ -184,7 +184,6 @@ public class NumberProgress extends View {
     }
 
     private void calculateDrawRectF() {
-
         currentDrawText = String.format("%d", currentProgress * 100 / maxProgress);
         currentDrawText = currentDrawText+"%";
         float drawTextWidth = textPaint.measureText(currentDrawText);
