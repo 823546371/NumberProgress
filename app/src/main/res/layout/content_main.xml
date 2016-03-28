@@ -105,5 +105,4 @@
         app:textColor="#ae6642"
         app:currentProgress="90"
         />
-
 </LinearLayout>

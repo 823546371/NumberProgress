@@ -17,5 +17,13 @@
         <attr name="currentProgress" format="integer"/>
         <!-- 总进度 -->
         <attr name="maxProgress" format="integer"/>
+
+
+        <!-- unProgress颜色 -->
+        <attr name="unProgressColor" format="color"/>
+        <!-- progress颜色 -->
+        <attr name="progressColor" format="color"/>
+        <!-- progress宽度 -->
+        <attr name="progressWidth" format="dimension"/>
     </declare-styleable>
 </resources>
